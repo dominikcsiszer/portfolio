@@ -1,0 +1,3 @@
+RewriteEngine On
+
+RewriteRule ^works/([0-9a-zA-Z]+) works.php?link=$1 [NC,L]
