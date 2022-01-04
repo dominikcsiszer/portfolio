@@ -1,8 +1,8 @@
 <?php 
-    $shost = "185.129.138.45:3306";
-    $sname = "b21949";
-    $spassword = "vhQW69ns";
-    $dbName = "b21949";
+    $shost = "";
+    $sname = "";
+    $spassword = "";
+    $dbName = "";
 
     $conn = mysqli_connect($shost, $sname, $spassword, $dbName);
 
